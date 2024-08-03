@@ -1,0 +1,44 @@
+img {
+    width: 420px;
+    height: 200px;
+}
+
+.btn {
+    height: 140px;
+    width: 140px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.board {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 420px;
+    width: 420px;
+    margin-top: 1px;
+    border: 0.1px solid black;
+}
+
+.nut {
+    margin: 0 auto;
+    width: 360px;
+    text-align: center;
+}
+
+.nut button {
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #FCDDD8;
+    height: 30px;
+    width: 70px;
+    border: 0.5px solid black;
+
+}
+
+button:hover {
+    background-color: pink;
+}
